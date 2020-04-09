@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Miner</title>
+</head>
+<body>
+    <script src="main.js" charset="utf-8" type="text/javascript"></script>
+    
+    <p id="goldMined">0 Gold Owned</p>
+
+    <p id="miners"></p>
+        
+    <p id="motivators"></p>
+
+    <p id="bosses"></p>
+
+    <p id="investors"></p>
+
+    <p id="strategists"></p>
+    
+    <button onclick="mineGold()">Mine Gold</button>
+    
+    <p><button onclick="buyGoldPerClick()" id="perClickUpgrade" disabled=1 style="visibility:hidden;">Upgrade Pickaxe - 10 Gold Gold (increases Gold per click)</button></p>
+
+    <p><button onclick="hireMiner()" id="perMinerUpgrade" disabled=1 style="visibility:hidden;">Hire Miner - 500 Gold (increases clicks per second)</button></p>
+
+    <p><button onclick="hireMotivator()" id="perMotivatorUpgrade" disabled=1 style="visibility:hidden;">Hire Motivator - 10000 Gold (increases miner's output)</button></p>
+
+    <p><button onclick="hireBoss()" id="perBossUpgrade" disabled=1 style="visibility:hidden;">Hire Boss - 100000 Gold (decreases cost scaling)</button></p>
+
+    <p><button onclick="hireInvestor()" id="perInvestorUpgrade" disabled=1 style="visibility:hidden;">Hire Investor - 500000 Gold (earns interest on holdings)</button></p>
+
+    <p><button onclick="hireStrategist()" id="perStrategistUpgrade" disabled=1 style="visibility:hidden;">Hire Strategist - 1000000 Gold (increases investment yeild)</button></p>
+    
+    <p><button onclick="prestige()" id="buyTheWorld" disabled=1>Buy the world - 1.0e+308 Gold</button></p>
+
+    <p><button onclick="cheat()" style="visibility:hidden;">Cheat!</button></p>
+
+    <p><button onclick="hardReset()">Hard Reset</button></p>
+</body>
+</html>
